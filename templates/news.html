@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Новости</title>
+</head>
+<body>
+    <h1>Липецк</h1>
+    <nav>
+        <a class="btn btn-primary" href="/" role="button">Главная</a>
+        <a class="btn btn-primary" href="/news/" role="button">Новости города</a>
+        <a class="btn btn-primary" href="/management/" role="button">Руководство города</a>
+        <a class="btn btn-primary" href="/facts/" role="button">Факты о городе</a>
+        <a class="btn btn-primary" href="/contacts/" role="button">Контактные телефоны</a>
+        <a class="btn btn-primary" href="/history/" role="button">История города</a>
+    </nav>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                В Ельце продолжается ликвидация серьезной аварии на водоводе
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Водовод диаметром 300 мм накануне восстановили, но через 4 часа произошел новый порыв. Причина – ветхое состояние городского водопровода.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                К вечеру субботы без отопления в Липецке оставались 35 многоэтажек
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">За субботу энергетикам и управляющим компаниям удалось сократить на восемь количество липецких многоэтажек, остающихся без отопления. Если вчера, в концу последнего, пятого дня с начала отопительного сезона, холодными батареи были в 43 домах, то сейчас люди мерзнут в 35 многоквартирных домах. Больше всего холодных домов — в ведении УК «Выбор», «Проспект», «Маяк».
+                <p><p>Об этом сообщил начальник отдела эксплуатации коммунального хозяйства мэрии Павел Кузнецов, который сегодня был координатором работы по подаче тепла в остающиеся без него дома от городской администрации.<p/></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                В Липецкой области сухо и до +11
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">В ближайшие трое суток влияние на погоду в Липецкой области будет оказывать восточная периферия западного антициклона, осадков не ожидается.</div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
